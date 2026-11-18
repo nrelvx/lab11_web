@@ -1,0 +1,26 @@
+body {
+  background-image: url(images/bg.svg);   /* фонове зображення */
+  margin-left: 10%;                       /* відступи від меж вікна */
+  margin-right: 10%;
+  font-family: Georgia, serif;
+  font-size: 18px;                        /* розмір тексту */
+  font-style: italic;                     /* курсив */
+}
+h1 {
+  font-weight: bold;                      /* жирний */
+  font-style: normal;                     /* нормальний стиль */
+  text-align: center;                     /* по центру */
+  color: #8b2e2e;                         /* визначений колір */
+}
+p {
+  text-indent: 2em;                       /* «червоний рядок» */
+  text-align: justify;                    /* вирівнювання по ширині */
+}
+img.left  { float: left;  margin: 5px 15px 5px 0; }   /* рисунок зліва від тексту */
+img.right { float: right; margin: 5px 0 5px 15px; }  /* рисунок справа від тексту */
+nav { text-align: center; margin-bottom: 20px; }
+nav a { margin: 0 12px; }
+a:link    { color: green;    text-decoration: none; }       /* невідвідане */
+a:active  { color: #0000FF;  text-decoration: none; }       /* активне */
+a:visited { color: DarkBlue; text-decoration: none; }       /* відвідане */
+a:hover   { color: Red;      text-decoration: underline; }  /* наведення миші */
